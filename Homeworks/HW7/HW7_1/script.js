@@ -18,7 +18,7 @@ const result = [];
     for (let i = 0; i < this.length; i++) {
         if (i in this){
             if(callback.call(thisArg, this[i], i, this)) {
-                result.push(this[i]);
+                result.push(this[i])
             }
         }
     }
